@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#102923" />
+    <title>QuestShala — A Reality Lab</title>
+    <meta name="description" content="QuestShala — A Reality Lab for learning, play, and discovery." />
+    <script>
+      (() => {
+        try {
+          const storedTheme = localStorage.getItem("gyanbuddy-theme");
+          const savedData = JSON.parse(localStorage.getItem("learnquest-react-demo") || "{}");
+          const grade = Number(savedData.profile?.grade || 4);
+          const previousBand = localStorage.getItem("gyanbuddy-band");
+          const band = previousBand === "junior" || previousBand === "middle" || previousBand === "senior"
+            ? previousBand
+            : grade <= 5 ? "junior" : grade <= 8 ? "middle" : "senior";
+          const preference = storedTheme || (band === "senior" ? "dark" : "light");
+          const theme = preference === "system"
+            ? (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+            : preference;
+          document.documentElement.dataset.band = band;
+          document.documentElement.dataset.theme = theme;
+        } catch (error) {
+          console.error("Could not read the saved appearance preference.", error);
+          document.documentElement.dataset.band = "junior";
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

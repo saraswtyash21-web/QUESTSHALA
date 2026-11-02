@@ -1,0 +1,437 @@
+{
+  "1": {
+    "Mathematics": [
+      "Counting and number recognition",
+      "Comparing and ordering numbers",
+      "Grouping and simple addition/subtraction",
+      "Shapes, sorting and patterns",
+      "Length, weight, capacity, time and money"
+    ],
+    "Languages": [
+      "Listening and speaking",
+      "Letter sounds and familiar words",
+      "Picture reading, rhymes and stories",
+      "Handwriting and simple sentences"
+    ],
+    "World Around Us": [
+      "Self and family",
+      "Body parts, hygiene, food and clothes",
+      "Homes, school and neighbourhood",
+      "Plants, animals, water and weather",
+      "Transport, safety and seasons"
+    ],
+    "Creative & Digital": [
+      "Drawing, colour, music and movement",
+      "Sequencing routines and simple patterns",
+      "Safe, supervised technology use"
+    ]
+  },
+  "2": {
+    "Mathematics": [
+      "Place value and number ordering",
+      "Addition/subtraction with regrouping",
+      "Equal sharing and early multiplication/division",
+      "Halves and quarters",
+      "Shapes, measurement, time, money and pictographs"
+    ],
+    "Languages": [
+      "Oral conversation and phonics",
+      "Short paragraphs, stories and poems",
+      "Vocabulary, sentence building and punctuation",
+      "Guided writing and listening comprehension"
+    ],
+    "World Around Us": [
+      "Food, body care and healthy habits",
+      "Families, homes and communities",
+      "Animal habitats and plant growth",
+      "Water conservation, weather and seasons",
+      "Road safety and community services"
+    ],
+    "Creative & Digital": [
+      "Drawing, craft, rhythm and team games",
+      "Step-by-step instructions and visual patterns",
+      "Device care and digital safety"
+    ]
+  },
+  "3": {
+    "Mathematics": [
+      "Place value and four operations",
+      "Multiplication and division",
+      "Number patterns and picture fractions",
+      "Measurement, time and money",
+      "Shapes, symmetry, tables and pictographs"
+    ],
+    "Languages": [
+      "Reading connected texts",
+      "Vocabulary and grammar in context",
+      "Retelling, poems and dialogue",
+      "Paragraph writing, spelling and punctuation"
+    ],
+    "EVS / World Around Us": [
+      "Family and community",
+      "Plants, animals, food and nutrition",
+      "Water, sanitation, shelter and materials",
+      "Travel, maps, weather, health and safety"
+    ],
+    "Computational Thinking": [
+      "Patterns and stepwise instructions",
+      "Decomposition and classification",
+      "Simple data tables and responsible technology use"
+    ]
+  },
+  "4": {
+    "Mathematics": [
+      "Multi-digit numbers and four operations",
+      "Factors and multiples foundations",
+      "Fractions",
+      "Measurement conversions",
+      "Perimeter and area intuition",
+      "Angles, polygons, time and money",
+      "Data tables and bar representations"
+    ],
+    "Languages": [
+      "Comprehension and inference",
+      "Story structure and poems",
+      "Vocabulary and grammar",
+      "Paragraph and letter writing",
+      "Descriptions, summaries and oral presentations"
+    ],
+    "EVS / World Around Us": [
+      "Food chains and living things",
+      "Human body and health",
+      "Water sources, cycle and conservation",
+      "Materials and their uses",
+      "Homes, transport and communication",
+      "Maps, directions and community roles"
+    ],
+    "Computational Thinking & AI": [
+      "Algorithms as ordered instructions",
+      "Blocks and pseudocode concepts",
+      "Grouping data and simple models",
+      "Testing, debugging and online privacy"
+    ]
+  },
+  "5": {
+    "Mathematics": [
+      "Large numbers and place value",
+      "Four operations, factors and multiples",
+      "Fractions and decimals",
+      "Estimation and measurement",
+      "Perimeter, area and volume foundations",
+      "Geometry and symmetry",
+      "Time, money, tables, graphs and data"
+    ],
+    "Languages": [
+      "Longer comprehension and inference",
+      "Fiction, nonfiction and word relationships",
+      "Grammar in use",
+      "Paragraph, creative and letter writing",
+      "Summaries, discussion and presentations"
+    ],
+    "EVS / World Around Us": [
+      "Human body and health",
+      "Ecosystems and adaptations",
+      "Food production and nutrition",
+      "Water cycle and conservation",
+      "Materials and changes, energy in daily life",
+      "Maps, culture, travel and civic responsibility"
+    ],
+    "Computational Thinking & AI": [
+      "Problem decomposition and algorithms",
+      "Data classification and basic logic",
+      "AI examples and limitations",
+      "Privacy, bias and fairness basics",
+      "Project-based creation"
+    ]
+  },
+  "6": {
+    "Mathematics": [
+      "Whole numbers and integers",
+      "Factors, multiples, fractions and decimals",
+      "Ratio and proportion foundations",
+      "Basic algebra and patterns",
+      "Lines, angles and constructions",
+      "Perimeter, area and data handling"
+    ],
+    "Science": [
+      "Materials and their properties",
+      "Separation and changes",
+      "Living organisms and classification",
+      "Body and health",
+      "Motion and measurement",
+      "Light, shadows and mirrors",
+      "Electricity, magnets, water, air and environment"
+    ],
+    "Social Science": [
+      "Earth, globes and maps",
+      "Landforms and resources",
+      "Early humans and ancient societies",
+      "Historical sources and communities",
+      "Local government and democratic ideas",
+      "Needs, work and livelihoods"
+    ],
+    "Languages": [
+      "Reading, writing, grammar and literature",
+      "Speaking, listening and comprehension"
+    ],
+    "Computing & AI": [
+      "Algorithms and sequencing",
+      "Coding concepts and digital literacy",
+      "Data representation and AI awareness",
+      "Online safety and hands-on projects"
+    ]
+  },
+  "7": {
+    "Mathematics": [
+      "Integers and rational numbers",
+      "Fractions, decimals and exponents",
+      "Algebraic expressions and equations",
+      "Ratio, proportion and percentages",
+      "Lines, triangles and congruence",
+      "Perimeter, area, data and probability intuition"
+    ],
+    "Science": [
+      "Nutrition and life processes",
+      "Heat and temperature",
+      "Acids, bases and physical/chemical changes",
+      "Weather, climate and soil",
+      "Respiration and transport in organisms",
+      "Motion, time, circuits, light and water"
+    ],
+    "Social Science": [
+      "Medieval and early-modern history",
+      "Environment and physical geography",
+      "Atmosphere, water and life",
+      "Equality, diversity and state government",
+      "Media, markets and economic life"
+    ],
+    "Languages": [
+      "Literature, grammar and comprehension",
+      "Paragraphs, dialogue and presentations"
+    ],
+    "Computing & AI": [
+      "Block/text coding foundations",
+      "Decomposition and debugging",
+      "Spreadsheets and data",
+      "Networks, cyber safety and AI applications"
+    ]
+  },
+  "8": {
+    "Mathematics": [
+      "Rational numbers, squares, cubes and roots",
+      "Powers and algebraic expressions",
+      "Equations, percentages, profit/loss/discount",
+      "Direct and inverse proportion",
+      "Geometry and constructions",
+      "Mensuration, data handling and probability"
+    ],
+    "Science": [
+      "Cells and microorganisms",
+      "Reproduction and adolescence",
+      "Force, pressure and friction",
+      "Sound and light",
+      "Electricity and chemical effects",
+      "Combustion, metals/non-metals and fuels",
+      "Conservation, pollution and ecosystems"
+    ],
+    "Social Science": [
+      "Colonialism and modern history",
+      "Constitution, parliament and justice",
+      "Resources, agriculture and industry",
+      "Human resources and geographical reasoning",
+      "Social inequality, public facilities and livelihoods"
+    ],
+    "Languages": [
+      "Literature, grammar and comprehension",
+      "Analytical and creative writing"
+    ],
+    "Computing & AI": [
+      "Data science, AI and coding foundations",
+      "Algorithms and programming",
+      "Datasets and visualisation",
+      "Cyber hygiene and prototype projects"
+    ]
+  },
+  "9": {
+    "Mathematics": [
+      "Number systems and real numbers",
+      "Polynomials and algebra",
+      "Coordinate geometry",
+      "Geometry, triangles and circles",
+      "Mensuration",
+      "Statistics and probability"
+    ],
+    "Science": [
+      "Matter and its composition",
+      "Atoms, molecules and chemical change",
+      "Living systems and biological processes",
+      "Motion, force and energy",
+      "Heat, light, sound, electricity and magnetism",
+      "Practical and experimental skills"
+    ],
+    "Social Science": [
+      "History and historical sources",
+      "Geography, environment, resources and maps",
+      "Political science and constitutional values",
+      "Economics, production and development"
+    ],
+    "English": [
+      "Reading comprehension and inference",
+      "Literature, poetry and drama",
+      "Grammar and vocabulary",
+      "Analytical and creative writing"
+    ],
+    "Computing / Skill Education": [
+      "Computational thinking and data",
+      "Algorithms and problem solving",
+      "AI / IT / vocational options as offered"
+    ]
+  },
+  "10": {
+    "Mathematics": [
+      "Real numbers",
+      "Polynomials and pairs of linear equations",
+      "Quadratic equations and arithmetic progressions",
+      "Coordinate geometry",
+      "Triangles and circles",
+      "Trigonometry",
+      "Areas, surface areas and volumes",
+      "Statistics and probability"
+    ],
+    "Science": [
+      "Chemical reactions and equations",
+      "Acids, bases and salts; metals and non-metals",
+      "Carbon compounds",
+      "Life processes, control and coordination",
+      "Reproduction, heredity and evolution themes as prescribed",
+      "Light, electricity and magnetic effects",
+      "Environment and practical work"
+    ],
+    "Social Science": [
+      "History and historical sources",
+      "Geography and resources",
+      "Political science and democratic institutions",
+      "Economics, development and public issues"
+    ],
+    "English": [
+      "Reading comprehension",
+      "Prescribed prose, poetry and literature",
+      "Grammar and writing formats",
+      "Analytical responses"
+    ],
+    "Computing / Skill Education": [
+      "Information technology or AI subject, if selected",
+      "Digital safety and practical/project work"
+    ]
+  },
+  "11": {
+    "Mathematics": [
+      "Sets and functions",
+      "Trigonometric functions",
+      "Complex numbers and quadratic equations",
+      "Linear inequalities",
+      "Permutations, combinations and binomial theorem",
+      "Sequences and series",
+      "Straight lines, conics and 3D geometry",
+      "Limits, derivatives, statistics and probability"
+    ],
+    "Physics": [
+      "Physical world, units and measurement",
+      "Kinematics and laws of motion",
+      "Work, energy and power",
+      "System of particles and rotation",
+      "Gravitation",
+      "Mechanical properties of solids and fluids",
+      "Thermal physics and thermodynamics",
+      "Kinetic theory",
+      "Oscillations and waves",
+      "Practical work"
+    ],
+    "Chemistry": [
+      "Mole concept and atomic structure",
+      "Periodicity and chemical bonding",
+      "States of matter where prescribed",
+      "Thermodynamics and equilibrium",
+      "Redox and inorganic chemistry",
+      "Organic chemistry principles and hydrocarbons",
+      "Practical chemistry"
+    ],
+    "Biology": [
+      "Diversity and biological classification",
+      "Plant and animal structure",
+      "Cell structure and function",
+      "Biomolecules and cell division",
+      "Plant and human physiology",
+      "Practical and observation skills"
+    ],
+    "Computer Science": [
+      "Computational thinking and Python",
+      "Data types, control flow and functions",
+      "Data structures/file handling as prescribed",
+      "SQL and relational databases",
+      "Computer systems, networks and cyber safety",
+      "Project work"
+    ],
+    "English": [
+      "Reading, writing and prescribed literature",
+      "Vocabulary and grammar in context",
+      "Speaking/listening assessment as prescribed"
+    ]
+  },
+  "12": {
+    "Mathematics": [
+      "Relations and functions",
+      "Inverse trigonometric functions",
+      "Matrices and determinants",
+      "Continuity, differentiability and applications of derivatives",
+      "Integrals and applications",
+      "Differential equations",
+      "Vectors and 3D geometry",
+      "Linear programming and probability"
+    ],
+    "Physics": [
+      "Electrostatics and capacitance",
+      "Current electricity",
+      "Magnetic effects and magnetism",
+      "Electromagnetic induction and alternating current",
+      "Electromagnetic waves",
+      "Ray and wave optics",
+      "Dual nature of radiation and matter",
+      "Atoms and nuclei",
+      "Semiconductor/electronic devices where prescribed",
+      "Practical work"
+    ],
+    "Chemistry": [
+      "Solutions and electrochemistry",
+      "Chemical kinetics",
+      "d- and f-block elements",
+      "Coordination compounds",
+      "Haloalkanes and haloarenes",
+      "Alcohols, phenols and ethers",
+      "Aldehydes, ketones and carboxylic acids",
+      "Amines and biomolecules",
+      "Practical/investigatory work"
+    ],
+    "Biology": [
+      "Reproduction and reproductive health",
+      "Inheritance and molecular basis of inheritance",
+      "Evolution",
+      "Human health and disease",
+      "Microbes and human welfare",
+      "Biotechnology principles and applications",
+      "Organisms, populations, ecosystems and biodiversity"
+    ],
+    "Computer Science": [
+      "Python programming and problem solving",
+      "Functions, data structures and file handling as prescribed",
+      "SQL and database applications",
+      "Computer networks and cyber safety",
+      "Project/practical work"
+    ],
+    "English": [
+      "Reading comprehension and creative/formal writing",
+      "Prescribed prose, poetry and fiction",
+      "Literary interpretation and vocabulary"
+    ]
+  }
+}

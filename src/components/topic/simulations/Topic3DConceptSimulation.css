@@ -1,0 +1,20 @@
+.concept-simulation { display: grid; gap: 14px; }
+.concept-simulation-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 14px; }
+.concept-simulation-controls > label { display: grid; min-width: min(220px, 100%); flex: 1 1 220px; gap: 5px; color: var(--text); font-size: 12px; font-weight: 750; }
+.concept-simulation-controls > label input { width: 100%; accent-color: var(--accent); }
+.concept-simulation-controls > label span { color: var(--text-muted); font-size: 11px; font-weight: 600; }
+.concept-simulation-actions { display: flex; gap: 8px; }
+.concept-canvas { width: 100%; height: clamp(250px, 40vw, 390px); overflow: hidden; border: 1px solid var(--border); border-radius: 16px; background: var(--simulation-canvas); }
+.concept-canvas canvas { display: block; width: 100%; height: 100%; }
+.concept-simulation .sim-notice { padding: 12px 14px; margin: 0; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-2); color: var(--text); line-height: 1.6; }
+.concept-device-note { margin: 0; color: var(--text-muted); font-size: 12px; }
+.concept-static-model { display: grid; min-height: 240px; place-content: center; justify-items: center; gap: 10px; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--simulation-canvas); color: var(--text); text-align: center; }
+.concept-static-model svg { width: min(100%, 360px); max-height: 190px; color: var(--accent); }
+.concept-static-model svg text { fill: var(--text); font: 13px sans-serif; }
+.concept-static-model p { max-width: 560px; margin: 0; color: var(--text-muted); font-size: 12px; line-height: 1.6; }
+@media (max-width: 600px) {
+  .concept-simulation-controls { align-items: stretch; }
+  .concept-simulation-controls > label { min-width: 100%; }
+  .concept-simulation-actions { width: 100%; }
+  .concept-simulation-actions .btn { flex: 1; }
+}

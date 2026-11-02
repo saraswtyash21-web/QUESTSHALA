@@ -1,0 +1,45 @@
+.shm-viewer { display: grid; gap: 18px; }
+.shm-viewer-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.shm-viewer-heading h2 { margin: 4px 0 0; color: var(--text); font: 900 23px/1.2 "Nunito", sans-serif; }
+.shm-eyebrow { color: var(--accent); font-size: 10px; font-weight: 900; letter-spacing: 1.1px; }
+.shm-unavailable, .shm-simulation-intro > p, .shm-2d-fallback > p { margin: 0; color: var(--text-muted); font-size: 13px; line-height: 1.65; }
+.shm-simulation { display: grid; gap: 16px; }
+.shm-simulation-intro { display: grid; gap: 8px; }
+.shm-motion-note { padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; color: var(--text) !important; background: var(--surface-2); }
+.shm-simulation-layout { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(280px, .9fr); gap: 16px; align-items: start; }
+.shm-visual-column { min-width: 0; }
+.shm-canvas { position: relative; width: 100%; height: clamp(300px, 43vw, 430px); overflow: hidden; border: 1px solid var(--border); border-radius: 16px; background: var(--simulation-canvas); }
+.shm-canvas canvas { display: block; width: 100%; height: 100%; }
+.shm-scene-legend { position: absolute; top: 10px; left: 10px; z-index: 1; display: flex; gap: 7px; pointer-events: none; }
+.shm-scene-legend span { padding: 6px 9px; border: 1px solid var(--border); border-radius: 999px; color: var(--text); background: var(--surface); font-size: 10px; font-weight: 800; }
+.shm-live-values { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+.shm-live-values article { display: grid; gap: 5px; padding: 12px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.shm-live-values article span { color: var(--text-muted); font-size: 11px; font-weight: 700; }
+.shm-live-values article strong { color: var(--text); font: 900 21px "Nunito", sans-serif; }
+.shm-live-values article small { color: var(--text-muted); font-size: 10px; }
+.shm-transport-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.shm-primary-button, .shm-secondary-button { min-height: 38px; border: 1px solid var(--border); border-radius: 10px; padding: 8px 13px; color: var(--text); background: var(--surface); font-size: 12px; font-weight: 800; cursor: pointer; }
+.shm-primary-button { border-color: var(--accent); color: var(--accent-contrast); background: var(--accent); }
+.shm-controls { display: grid; gap: 13px; padding: 16px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+.shm-controls-heading h3 { margin: 4px 0 0; color: var(--text); font: 900 17px "Nunito", sans-serif; }
+.shm-slider-control { display: grid; gap: 7px; }
+.shm-slider-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; color: var(--text); font-size: 11px; }
+.shm-slider-heading output { color: var(--accent); font-weight: 900; white-space: nowrap; }
+.shm-slider-control input { width: 100%; margin: 0; accent-color: var(--accent); }
+.shm-slider-control small, .shm-small-angle-note { color: var(--text-muted); font-size: 10px; line-height: 1.5; }
+.shm-small-angle-note { margin: 0; padding: 10px; border-radius: 10px; background: var(--surface-2); }
+.shm-2d-fallback { display: grid; gap: 14px; padding: 16px; border: 1px solid var(--border); border-radius: 15px; background: var(--surface-2); }
+.shm-2d-diagram { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.shm-2d-diagram section { display: grid; justify-items: center; gap: 8px; padding: 12px 8px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); color: var(--text); font-size: 11px; text-align: center; }
+.shm-2d-diagram svg { width: min(100%, 220px); height: auto; overflow: visible; }
+.shm-2d-diagram svg path { fill: none; stroke: var(--accent); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.shm-2d-diagram svg rect, .shm-2d-diagram svg circle { fill: #f07e66; stroke: #d35e4b; stroke-width: 2; }
+.shm-2d-diagram svg circle:first-of-type { fill: var(--surface-2); stroke: var(--border); }
+.shm-2d-diagram svg .shm-2d-guide { stroke: var(--text-muted); stroke-width: 2; stroke-dasharray: 4 4; }
+.shm-2d-diagram svg text { fill: var(--text-muted); stroke: none; font: 9px sans-serif; }
+.shm-formula-row { display: flex; flex-wrap: wrap; gap: 9px; color: var(--text-muted); font-size: 11px; }
+.shm-formula-row span { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-2); }
+.shm-formula-row strong { color: var(--text); }
+@media (max-width: 820px) { .shm-simulation-layout { grid-template-columns: minmax(0, 1fr); } .shm-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); } .shm-controls-heading, .shm-small-angle-note { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .shm-viewer-heading { align-items: flex-start; flex-direction: column; } .shm-live-values { grid-template-columns: minmax(0, 1fr); } .shm-controls { grid-template-columns: minmax(0, 1fr); } .shm-controls-heading, .shm-small-angle-note { grid-column: auto; } .shm-2d-diagram { grid-template-columns: minmax(0, 1fr); } }
+@media (prefers-reduced-motion: reduce) { .shm-primary-button, .shm-secondary-button { transition: none; } }
